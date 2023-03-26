@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "My Extension",
+    "description": "First project",
+    "version": "0.1",
+    "icons": {
+        "16": "image/logo_16.png",
+        "32": "image/logo_32.png",
+        "48": "image/logo_48.png",
+        "128": "image/logo_128.png"
+    },
+    "action": {
+        "default_icon": "image/logo_48.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "storage", 
+        "power"
+    ]
+}
